@@ -1,0 +1,133 @@
+{"intents": [
+        {"tag": "salam",
+         "patterns": ["hai", "hallo", "hallo","salam","hello", "hi", "mau bertanya", "permisi"],
+         "responses": ["Hallo", "Senang bertemu anda lagi", "Hallo, ada yang bisa dibantu?"],
+         "context": [""]
+        },
+        {"tag": "salam2",
+         "patterns": ["selamat pagi", "pagi", "met pagi","morning","good morning"],
+         "responses": ["Selamat pagi, ada yang bisa dibantu?"],
+         "context": [""]
+        },
+        {"tag": "salam3",
+         "patterns": ["selamat siang", "siang", "met siang","good afternoon"],
+         "responses": ["Selamat siang, ada yang bisa dibantu?"],
+         "context": [""]
+        },
+        {"tag": "salam4",
+         "patterns": ["selamat malam", "malam", "met malam","good evening"],
+         "responses": ["Selamat malam, ada yang bisa dibantu?"],
+         "context": [""]
+        },
+        {"tag": "kabar",
+         "patterns": ["apa kabar", "ada apa?","apa kabar hari ini?"],
+         "responses": ["Halo, terima kasih sudah bertanya", "Senang bertemu anda lagi", "Hallo, ada yang bisa dibantu?"],
+         "context": [""]
+        },
+        {"tag": "perkenalan",
+         "patterns": ["siapa kamu", "nama kamu siapa?","siapa ini"],
+         "responses": ["saya BotMojo", "nama saya BotMojo", "Terima kasih telah bertanya, saya BotMojo!"],
+         "context": [""]
+        },
+        {"tag": "perpisahan",
+         "patterns": ["Bye", "selamat tinggal", "sampai jumpa", "Senang mengobrol denganmu, sampai jumpa", "sampai ketemu lagi"],
+         "responses": ["sampai jumpa!", "Semoga harimu menyenangkan", "Bye! terima kasih sudah berkunjung."],
+         "context": [""]
+        },
+        {"tag": "terimakasih",
+         "patterns": ["Thanks", "Terima kasih", "makasih", "trims", "Terima kasih telah membantuku"],
+         "responses": ["Senang bisa membantu!", "Dengan senang hati", "Tentu!"],
+         "context": [""]
+        },
+        {"tag": "nochat",
+         "patterns": [],
+         "responses": ["Maaf, saya tidak bisa mengerti Anda", "Tolong beri saya info lebih lanjut", "Tidak yakin saya mengerti"],
+         "context": [""]
+        },
+        {"tag": "info",
+         "patterns": ["Bagaimana kamu membantu saya?", "Apa yang bisa kamu lakukan?", "Bantuan apa yang kamu berikan?", "Bagaimana kamu bisa membantu?", "informasi apa yg ditawarkan"],
+         "responses": ["Kami hanya menyediakan informasi wisata di kabupaten mojokerto"],
+         "context": [""]
+        },
+        {"tag": "wisata",
+         "patterns": ["objek wisata apa saja yang tersedia", "wisatanya apa saja", "tujuan wisata kemana saja", "kemana aja", "tujuan mana saja"],
+         "responses": ["Tentukan tujuan anda, silahkan pilih dari daftar berikut: Museum trowulan, candi, maha vihara mojopahit, pendopo agung trowulan, air terjun, pemandian air panas"],
+         "context": [""]
+        },
+        {"tag": "museum",
+         "patterns": ["museum trowulan"],
+         "responses": ["lokasi museum bisa dicek di alamat berikut: https://goo.gl/maps/4jFMpHaL3DeZ6oG59"],
+         "context": [""]
+        },
+        {"tag": "candi",
+         "patterns": ["candi"],
+         "responses": ["hi kak, silahkan pilih daftar informasi candi berikut: brahu, bajang ratu, wringin lawang"],
+         "context": [""]
+        },
+        {"tag": "candi2",
+         "patterns": ["brahu"],
+         "responses": ["lokasi candi brahu bisa dicek di alamat berikut: https://goo.gl/maps/63w6Qmkp9rd2tu5J6"],
+         "context": [""]
+        },
+        {"tag": "candi3",
+         "patterns": ["bajang ratu"],
+         "responses": ["lokasi candi bajang ratu bisa dicek di alamat berikut: https://goo.gl/maps/D9BXBMDjSMTZtoGd7"],
+         "context": [""]
+        },
+        {"tag": "candi4",
+         "patterns": ["wringin lawang"],
+         "responses": ["lokasi candi wringin lawang bisa dicek di alamat berikut: https://goo.gl/maps/7hK5ixAvx1NJzWPk8"],
+         "context": [""]
+        },
+        {"tag": "vihara",
+         "patterns": ["maha vihara mojopahit"],
+         "responses": ["informasi dan lokasi maha vihara mojopahit bisa dicek di alamat berikut: http://www.mahavihara-mojopahit.or.id/"],
+         "context": [""]
+        },
+        {"tag": "pendopo",
+         "patterns": ["pendopo agung trowulan"],
+         "responses": ["lokasi pendopo agung bisa dicek di alamat berikut: https://goo.gl/maps/dqMEZqMMMTQyvJ5dA"],
+         "context": [""]
+        },
+        {"tag": "air_terjun",
+         "patterns": ["air terjun"],
+         "responses": ["hi kak, silahkan pilih daftar informasi air terjun berikut: cuban canggu, surodadu, grenjengan, dlundung"],
+         "context": [""]
+        },
+        {"tag": "air_terjun2",
+         "patterns": ["cuban canggu"],
+         "responses": ["lokasi air terjun cuban canggu bisa dicek di alamat berikut: https://goo.gl/maps/3Dd8niPJhH8d1TQCA"],
+         "context": [""]
+        },
+        {"tag": "air_terjun3",
+         "patterns": ["surodadu"],
+         "responses": ["informasi dan lokasi air terjun surodadu bisa dicek di alamat berikut: https://air-terjun-surodadu.business.site/"],
+         "context": [""]
+        },
+        {"tag": "air_terjun4",
+         "patterns": ["grenjengan"],
+         "responses": ["lokasi air terjun grenjengan bisa dicek di alamat berikut: https://goo.gl/maps/5a2aBRL2j9jWESn58"],
+         "context": [""]
+        },
+        {"tag": "air_terjun5",
+         "patterns": ["dlundung"],
+         "responses": ["informasi dan lokasi air terjun dlundung bisa dicek di alamat berikut: https://airterjundlundung.business.site/"],
+         "context": [""]
+        },
+        {"tag": "air_panas",
+         "patterns": ["pemandian air panas"],
+         "responses": ["hi kak, silahkan pilih daftar informasi pemandian air panas berikut: padusan atau cangar"],
+         "context": [""]
+        },
+        {"tag": "air_panas2",
+         "patterns": ["padusan"],
+         "responses": ["lokasi pemandian air panas padusan bisa dicek di alamat berikut: https://goo.gl/maps/6wQ3d2aFMNFVW8Lh9"],
+         "context": [""]
+        },
+        {"tag": "air_panas3",
+         "patterns": ["cangar"],
+         "responses": ["lokasi pemandian air panas cangar bisa dicek di alamat berikut: https://goo.gl/maps/yE1LZGnWmAZnBPjy8"],
+         "context": [""]
+        }
+   ]
+}
